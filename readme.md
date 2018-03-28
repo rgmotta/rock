@@ -1,2 +1,0 @@
-# rock
-Wordpress Theme

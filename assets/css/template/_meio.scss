@@ -1,0 +1,93 @@
+/* Meio - Slide */
+.slide{ 
+    padding: 20px; 
+    margin: 25px 0 30px; 
+}
+/* Meio - Barra Lateral */
+.form-control { 
+    height: 45px; 
+}
+.barra-lateral{ 
+    padding: 20px; 
+    margin: 25px 0 30px; 
+    list-style: none;
+}
+.barra-lateral .wp-image-57{ 
+    overflow: hidden; 
+    margin-bottom: 50px; 
+}
+
+/* Curiosidades */
+.curiosidades{ 
+    background: #708090; 
+    padding: 25px 0;
+}
+.curiosidades h1 {  
+    text-align: center; 
+    font-size: 40px; 
+    padding-bottom: 10px;
+}
+.curiosidades h2 { 
+    text-align: center; 
+    text-transform: uppercase; 
+    padding: 5px;
+}
+.curiosidades .curiosidade-img{
+    text-align: center;
+}
+.curiosidades .curiosidade-img img{ 
+    border: 10px solid #2a363b; 
+}
+
+/* Centro imagens posts */
+.wp-post-image{ 
+    float: left; 
+    margin: 0 15px 10px 0; 
+}
+.post-format-image h1 { 
+    color: #fff; 
+    background: #717171; 
+    padding: 15px; 
+}
+.post-format-video h1 { 
+    color: #fff; 
+    background: #211e1e; 
+    padding: 15px; 
+}
+.post-format-padrao h1 { 
+    color: #444; 
+    background: #d2d2d2; 
+    padding: 15px; 
+}
+
+/* Area do meio - Cobertura, Lollapalooza e Cultura */
+.area-meio{ 
+    padding: 25px 0; 
+}
+.area-meio .area-centro span a{ 
+    color: red; 
+    text-decoration: none;
+}
+.area-meio .area-centro h1 a{ 
+    color: #000000;
+}
+.noticia-cobertura .miniatura{ 
+    max-height: 300px; 
+    overflow: hidden; 
+}
+.noticia-lollapalooza .miniatura{ 
+    max-height: 300px; 
+    overflow: hidden; 
+}
+.noticia-cultura .miniatura{ 
+    max-height: 300px; 
+    overflow: hidden; 
+}
+
+/* Meio Centro */
+.area-centro .miniatura { 
+    margin: 0 0 15px; 
+}
+h1.titulo-single { 
+    background-color: #F8F8FF; 
+}

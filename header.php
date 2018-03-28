@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width">
 	<title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
 	<meta name="description" content=" <?php bloginfo('description'); ?>">
-
+	<?php 
+	?>
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

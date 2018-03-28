@@ -17,8 +17,8 @@ function carrega_scripts(){
 	wp_enqueue_script( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', array('jquery'), null, true);
 	
 	// Enfileirando estilos e scripts próprios
-	wp_enqueue_style( 'template', get_template_directory_uri() . '/css/template.css', array(), '1.0', 'all');
-	wp_enqueue_script( 'template', get_template_directory_uri(). '/js/template.js', array(), null, true);	
+	wp_enqueue_style( 'template', get_template_directory_uri() . '/assets/css/template.css', array(), '1.0', 'all');
+	wp_enqueue_script( 'template', get_template_directory_uri(). '/assets/js/template.js', array(), null, true);	
 
 }
 // a funcao é uma isca que chamará a funcao carrega_scripts como se fosse um anzol
