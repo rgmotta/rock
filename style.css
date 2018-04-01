@@ -1,24 +1,15 @@
 @charset "UTF-8";
-/*
-
-Theme Name: Rock n'Roll
-Author: Rafael Mota
-Author URI: https://guiadorock.com.br
-Description: Esse ├® um site com o objetivo de deixar os usu├írios mais inteirados sobre os eventos e not├¡cias a respeito das bandas de rock nacionais e internacionais
-Version: 1.0
-Tags: rock, concert, Rock in Rio, Lollapaloza, bands rsrs
-
-*/
+/* Barra Topo - Logo */
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 .barra-topo {
-  background-color: #000000;
+  background-color: #000000 !important;
   height: 100px;
   margin: auto; }
 
 .logo {
   color: #ffffff;
-  margin-left: 50px;
+  margin-left: 45px;
   font-size: 50px;
   padding-left: 0; }
 
@@ -32,13 +23,14 @@ Tags: rock, concert, Rock in Rio, Lollapaloza, bands rsrs
   padding-left: 0; }
 
 .menu-principal ul {
+  margin-left: 0;
   list-style: none;
   font-size: 18px; }
 
 .menu-principal ul li {
   list-style: none;
-  display: inline;
   padding: 10px;
+  display: inline;
   line-height: 50px; }
 
 .menu-principal ul li:hover {
@@ -57,7 +49,7 @@ Tags: rock, concert, Rock in Rio, Lollapaloza, bands rsrs
 
 /* Header - Menu Secundario */
 .area-menu-sec {
-  background: #DCDCDC;
+  background-color: #DCDCDC;
   height: 45px;
   margin: auto; }
 
@@ -170,9 +162,6 @@ Tags: rock, concert, Rock in Rio, Lollapaloza, bands rsrs
 .area-centro .miniatura {
   margin: 0 0 15px; }
 
-h1.titulo-single {
-  background-color: #F8F8FF; }
-
 /* Mapa */
 .map {
   padding-bottom: 0; }
@@ -204,6 +193,9 @@ h1.titulo-single {
 .noticias .paginacao a {
   color: #2a363b;
   font-size: 16px; }
+
+h1.titulo-arquivo {
+  display: none; }
 
 /* Barra Lateral */
 .widget-titulo {
@@ -238,7 +230,27 @@ h1.titulo-single {
   text-align: center;
   list-style: none; }
 
+/* Single */
+h1.titulo-single {
+  font-size: 40px;
+  background-color: #F8F8FF; }
+
+.alignnone {
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* P├ígina Gerais */
+.type-page h1 {
+  text-align: center;
+  font-size: 40px; }
+
+.wpcf7-form {
+  text-align: center; }
+
 /* Google Fonts */
+/* Geral */
 body {
   font: 16px/1.6 'Oswald', sans-serif;
   background-color: #F8F8FF; }

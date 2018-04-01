@@ -1,12 +1,12 @@
-// Barra Topo - Logo 
+/* Barra Topo - Logo */ 
 .barra-topo{
-    background-color: #000000;
+    background-color: #000000 !important;
     height: 100px;
     margin: auto;
 }
 .logo{
     color: #ffffff;
-    margin-left: 50px;
+    margin-left: 45px;
     font-size: 50px;
     padding-left: 0;
 }
@@ -17,17 +17,18 @@
     height: 50px; 
     margin: auto; 
 }
-.menu-principal{ 
+.menu-principal{
 	padding-left: 0;
 }
-.menu-principal ul{ 
+.menu-principal ul{
+    margin-left: 0; 
     list-style: none; 
     font-size: 18px; 
 }
 .menu-principal ul li { 
-    list-style: none; 
+    list-style: none;
+    padding: 10px;
     display: inline; 
-    padding: 10px; 
     line-height: 50px; 
 }
 .menu-principal ul li:hover{ 
@@ -45,9 +46,11 @@
 color: red; 
 }
 
+
+
 /* Header - Menu Secundario */
-.area-menu-sec { 
-    background: #DCDCDC;  
+.area-menu-sec {    
+    background-color: #DCDCDC;  
     height: 45px; 
     margin: auto;
 }
